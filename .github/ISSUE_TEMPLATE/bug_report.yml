@@ -1,0 +1,43 @@
+name: Bug report
+description: Something in Nekot isn't working as expected.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report this. Never post tokens, passwords, session cookies or account emails. Please crop or blur them from screenshots before posting.
+  - type: input
+    id: app-version
+    attributes:
+      label: Nekot version
+      description: The version of the app you're using.
+      placeholder: e.g. 1.0
+    validations:
+      required: true
+  - type: input
+    id: os-version
+    attributes:
+      label: iOS version
+      placeholder: e.g. 18.5
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What did you see, and what did you expect to see instead?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open ...
+        2. Tap ...
+        3. See ...
+  - type: textarea
+    id: extra
+    attributes:
+      label: Screenshots or anything else
+      description: Drag images here. Please check them for private information first.
