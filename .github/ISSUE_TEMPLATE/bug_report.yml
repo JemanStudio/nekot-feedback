@@ -17,8 +17,9 @@ body:
   - type: input
     id: os-version
     attributes:
-      label: iOS version
-      placeholder: e.g. 18.5
+      label: iOS or macOS version
+      description: Which device you're on and its system version.
+      placeholder: e.g. iOS 18.5 on iPhone, or macOS 15.5 on Mac
     validations:
       required: true
   - type: textarea

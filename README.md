@@ -1,6 +1,6 @@
 # Nekot feedback
 
-Bug reports and feature requests for [Nekot](https://jeman.net/nekot/), a Jeman app for iPhone.
+Bug reports and feature requests for [Nekot](https://jeman.net/nekot/), a Jeman app for iPhone, iPad and Mac (macOS 14 or later, [Mac App Store](https://apps.apple.com/app/id6805865049)).
 
 - **Found a bug?** [Open a bug report](../../issues/new?template=bug_report.yml)
 - **Have an idea?** [Suggest a feature](../../issues/new?template=feature_request.yml)
